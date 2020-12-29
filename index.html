@@ -2,9 +2,226 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Eric Lam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
+    <div id="content">
+        <div class="container-fluid">
+            <p class="pt-3 text">
+                <span id="easter-egg" title="General Kenobi">Hello there,</span>
+                I'm
+            </p>
+            <p id="name">Eric Lam.</p>
+            <p class="text">
+                Somehow, you've stumbled into my little corner of the internet. Welcome!
+            </p>
+        </div>
+        <div class="container-fluid">
+            <div class="row header">
+                <div class="col-sm-auto" id="about"><span class="header-text">About Me</span></div>
+                <div class="col my-auto"><hr></div>
+            </div>
+            <p class="text">
+                I'm from NYC and am currently a first-year student at
+                <a href="https://web.mit.edu/" target="_blank">Massachusetts Institute of Technology (MIT)</a>
+                studying computer science, mathematics, and physics.
+            </p>
+            <br>
+            <p class="text">
+                In between <a href="#education">classes</a>, working on p-sets, and cramming for exams, I can be found reading fantasy/sci-fi
+                novels, programming, playing <a href="https://en.wikipedia.org/wiki/Ultimate_(sport)"target="_blank" >ultimate</a>,
+                folding <a href="https://www.giladorigami.com/origami-books-by/Satoshi%20Kamiya" target="_blank">origami</a>, and listening to
+                <a href="https://www.monstercat.com/" target="_blank">music</a>.
+            </p>
+            <br>
+            <p class="text">
+                What I'm currently self-learning: Node.js, Express.js, AngularJS<br>
+                What I'm currently working on: <a href="https://adventofcode.com/2020/about" target="_blank">Advent of Code</a>, one language a year<br>
+                What I'm currently reading: <a href="https://www.goodreads.com/book/show/44492285-dune-messiah" target="_blank">Dune Messiah</a>
+            </p>
+        </div>
+        <div class="container-fluid">
+            <div class="row header">
+                <div class="col-sm-auto" id="projects"><span class="header-text">Projects</span></div>
+                <div class="col my-auto"><hr></div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col">
+                    <div class="card border-secondary mb-3">
+                        <div class="card-body">
+                            <h2 class="card-title">Real-Time Chess</h2>
+                            <p class="card-text">
+                                A minimalist, 2-player chess implementation that updates in real-time.
+                                Users can create rooms to host virtual games.
+                                My first foray into WebSockets and real-time communication between server and client.
+                            </p>
+                            <a href="https://github.com/Xyresic/chess_sockets" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-footer border-secondary">
+                            <small class="text-muted">Flask WebSockets SQLAlchemy JavaScript Python HTML CSS</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-secondary mb-3">
+                        <div class="card-body">
+                            <h2 class="card-title">CoronaView</h2>
+                            <p class="card-text">
+                                A global map of COVID-19 spread, deaths, and recoveries.
+                                Users can watch the pandemic progress and stop/resume at any point.
+                                Clicking on a country reveals more information.
+                                Done as a project for my Software Development class.
+                            </p>
+                            <a href="https://github.com/DavidLupea/The-SIMPsons_dlupea00_jlee01_elam00_mzhang00" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-footer border-secondary">
+                            <small class="text-muted">D3.js Flask SQLAlchemy JavaScript Python HTML CSS</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-secondary mb-3">
+                        <div class="card-body">
+                            <h2 class="card-title">Digits</h2>
+                            <p class="card-text">
+                                A convolutional neural network implemented with nodes for handwritten digit recognition.
+                                A personal project (with a friend) to practice C++.
+                                WARNING: Does not actually accurately recognize digits; we didn't have the resources to train the network.
+                            </p>
+                            <a href="https://github.com/Xyresic/digits" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-footer border-secondary">
+                            <small class="text-muted">C++ wxWidgets</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-secondary mb-3">
+                        <div class="card-body">
+                            <h2 class="card-title">The Silcoon Road</h2>
+                            <p class="card-text">
+                                A digital marketplace for Pokémon cards.
+                                Users can buy, sell, and trade cards as well as packs.
+                                Done as a project for my Software Development class.
+                            </p>
+                            <a href="https://github.com/jiosephlee/Softdev-P01" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-footer border-secondary">
+                            <small class="text-muted">Flask SQLAlchemy REST APIs JavaScript Python HTML CSS</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-secondary mb-3">
+                        <div class="card-body">
+                            <h2 class="card-title">MazeRunner</h2>
+                            <p class="card-text">
+                                An escape-the-maze game where walls block your line of sight, complete with monsters that chase after you.
+                                Done as a project for my AP Computer Science class.
+                            </p>
+                            <a href="https://github.com/Xyresic/MazeRunner" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-footer border-secondary">
+                            <small class="text-muted">Java Swing</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-secondary mb-3">
+                        <div class="card-body">
+                            <h2 class="card-title">Terminal Instruments 01</h2>
+                            <p class="card-text">
+                                A terminal-based graphing calculator. Evaluates mathematical expressions,
+                                stores variables, recognizes constants, and graphs both functions and relations.
+                                Done as a project for my AP Computer Science class.
+                            </p>
+                            <a href="https://github.com/Xyresic/MKS21X-FinalProject" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-footer border-secondary">
+                            <small class="text-muted">Java Swing</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text">
+                Other cool stuff:<br>
+                <a href="https://github.com/Xyresic/AoC" target="_blank">My Advent of Code Solutions</a><br>
+                <a href="https://github.com/Xyresic/SoftDev-Projects" target="_blank">Other Software Development Projects</a><br>
+                <a href="https://github.com/Xyresic/AI" target="_blank">Algorithms for AI Class</a>
+                (Genetic Algorithm: Traveling Salesman, Dancing Links: Sudoku, Minimax: Tic Tac Toe)
+            </p>
+        </div>
+        <div class="container-fluid">
+            <div class="row header">
+                <div class="col-sm-auto" id="education"><span class="header-text">Education</span></div>
+                <div class="col my-auto"><hr></div>
+            </div>
+            <h3>MIT 2020-Present</h3>
+            <h4>Classes</h4>
+            <p class="text">
+                6.02 Communication Networks<br>
+                8.022 Electricity and Magnetism<br>
+                18.022 Vector Calculus
+            </p>
+            <br>
+            <h3>Stuyvesant 2016-2020</h3>
+            <h4>Classes</h4>
+            <p class="text">
+                Software Development<br>
+                Artificial Intelligence<br>
+                AP Computer Science<br>
+            </p>
+            <h4>Extracurriculars</h4>
+            <p class="text">
+                Stuyvesant Sticky Fingers (Ultimate Frisbee Team)<br>
+                MathILY 2019<br>
+                Stuy-Naught (MIT ZeroRobotics 2018 Champions)<br>
+                Stuyvesant Containment Program (SCP Club Co-Founder)
+            </p>
+        </div>
+        <div class="container-fluid">
+            <div class="row header">
+                <div class="col-sm-auto" id="contact"><span class="header-text">Contact</span></div>
+                <div class="col my-auto"><hr></div>
+            </div>
+            <p class="text" id="bottom">
+                You can find me at any of these places:
+                <br>
+                <a href="https://github.com/Xyresic" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/eric-lam-9380b9203/" target="_blank">LinkedIn</a>
+                <a href="mailto:ericjmlam@gmail.com" target="_blank">E-Mail</a>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"></script>
 </body>
 </html>
