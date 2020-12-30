@@ -69,6 +69,10 @@ svg {
     width: 24px !important;
 }
 
+svg:hover {
+    stroke: #afa;
+}
+
 .card-footer {
     background: #151540;
 }
