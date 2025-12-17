@@ -109,3 +109,22 @@ h4 {
 #bottom {
     margin-bottom: 10vh;
 }
+
+.section-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.no-margin {
+    margin: 0!important;
+}
+
+.hline {
+    background-color: #0d0;
+    height: 2px;
+    flex-grow: 1;
+}
